@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  text-align: center;
+}
+
+:host > * {
+  margin: 40px;
+}
+
+:host >>> input,
+:host >>> p {
+  font-size: 30px;
+}
+
+:host >>> p {
+  font-weight: bold;
+}
